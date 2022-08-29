@@ -4,14 +4,14 @@
 
 **Quand on partage une unité en parts égales, chaque part est une fraction de l'unité.**
 
-![part1](https://raw.githubusercontent.com/homeostasie/2022-2023_artic/master/6eme/6x1-fraction-partage/6x1-part1.png)
+![part1](hhttps://raw.githubusercontent.com/homeostasie/2022-2023_artic/master/doc/6eme/6x1-fraction-partage/6x1-part1.png)
 
 * Pour une bande unité
 * Chaque partie représente la fraction : $\dfrac{1}{4}$
 
 -----------------------------------------------------------
 
-![part1](https://raw.githubusercontent.com/homeostasie/2022-2023_artic/master/6eme/6x1-fraction-partage/6x1-part2.png)
+![part1](https://raw.githubusercontent.com/homeostasie/2022-2023_artic/master/doc/6eme/6x1-fraction-partage/6x1-part2.png)
 
 * La partie colorée est $\dfrac{1}{4}$.
 
@@ -50,7 +50,7 @@ $\dfrac{3}{5}$
 
 $\dfrac{1}{4} + \dfrac{1}{4} + \dfrac{1}{4} + \dfrac{1}{4} = \dfrac{1}{4}$
 
-![part1](https://raw.githubusercontent.com/homeostasie/2022-2023_artic/master/6eme/6x1-fraction-partage/6x1-part1.png)
+![part1](https://raw.githubusercontent.com/homeostasie/2022-2023_artic/master/doc/6eme/6x1-fraction-partage/6x1-part1.png)
 
 
 2. On peut prendre plusieurs parts.

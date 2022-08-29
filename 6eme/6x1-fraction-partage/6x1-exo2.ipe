@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70218" creator="Ipe 7.2.24">
-<info created="D:20220829175149" modified="D:20220829175601"/>
+<info created="D:20220829175149" modified="D:20220829181650"/>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -312,7 +312,62 @@ h
 <page>
 <layer name="alpha"/>
 <view layers="alpha" active="alpha"/>
-<path layer="alpha" stroke="lightgray" pen="heavier">
+<path layer="alpha" fill="darkgray">
+160 656 m
+160 624 l
+192 624 l
+160 656 l
+h
+</path>
+<path stroke="black" fill="darkgray">
+160 656 m
+32 0 0 -32 160 624 192 624 a
+</path>
+<path stroke="black" fill="darkgray">
+384 672 m
+352 640 l
+384 640 l
+384 672 l
+h
+</path>
+<path stroke="black" fill="darkgray">
+352 672 m
+384 672 l
+384 704 l
+352 672 l
+h
+</path>
+<path stroke="black" fill="darkgray">
+320 752 m
+320 704 l
+288 704 l
+320 656 l
+352 704 l
+320 752 l
+h
+</path>
+<path stroke="black" fill="darkgray">
+224 704 m
+224 608 l
+256 608 l
+256 704 l
+h
+</path>
+<path stroke="black" fill="darkgray">
+128 736 m
+128 672 l
+176 672 l
+176 736 l
+h
+</path>
+<path stroke="black" fill="darkgray">
+128 800 m
+128 768 l
+224 768 l
+224 800 l
+h
+</path>
+<path stroke="lightgray" pen="heavier">
 112 816 m
 400 816 l
 400 576 l

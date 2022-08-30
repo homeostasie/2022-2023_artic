@@ -56,4 +56,3 @@ $\dfrac{1}{4} + \dfrac{1}{4} + \dfrac{1}{4} + \dfrac{1}{4} = \dfrac{1}{4}$
 2. On peut prendre plusieurs parts.
 
 $\dfrac{3}{5} = \dfrac{1}{5} + \dfrac{1}{5} + \dfrac{1}{5} = 3 \times \dfrac{1}{5}$
-

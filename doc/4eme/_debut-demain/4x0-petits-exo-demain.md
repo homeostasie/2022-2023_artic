@@ -73,10 +73,10 @@ Est-il toujours en vie ?
 
 # Ex 11 - Calculer
 
-Calculer $1 + 8 \times x pour x = 3​$
-Calculer $3 + t pour t=−5$
-Calculer $−4 + 6 \times z pour z = 10$
-Calculer $−3 + 3 \times v pour v=0$
+Calculer $1 + 8 \times x \text{ pour }x = 3​$
+Calculer $3 + t  \text{ pour } t=−5$
+Calculer $−4 + 6 \times z \text{ pour }z = 10$
+Calculer $−3 + 3 \times v \text{ pour }v=0$
 
 # Ex 12 - Pixel Art
 

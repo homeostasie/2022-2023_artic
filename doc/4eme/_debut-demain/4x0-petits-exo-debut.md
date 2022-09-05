@@ -1,7 +1,7 @@
-# Exercice pour de d�but de cours.
+# Exercice pour de début de cours.
 
 **L'occasion de sortir ses affaires et se mettre en recherche rapidement.**
-**L'exercice peut être ramassé et not�.**
+**L'exercice peut être ramassé et noté.**
 
 # Ex 1 - Sudoku
 
@@ -27,7 +27,7 @@
 
 ![pa-1](https://raw.githubusercontent.com/homeostasie/2022-2023_artic/master/doc/6eme/_debut-demain/pa-1.png)
 
-# Ex 4 - Double / Moiti�
+# Ex 4 - Double / Moitié
 
 * Quel est le double de 121 ?
 * Quel est le triple de 55 ?

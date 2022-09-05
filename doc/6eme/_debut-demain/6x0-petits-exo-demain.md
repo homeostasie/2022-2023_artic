@@ -24,7 +24,7 @@ Complémentaire à 10.
 
 # Ex 4 - Sudoku
 
-![sudoku-3]()
+![sudoku-3](https://raw.githubusercontent.com/homeostasie/2022-2023_artic/master/doc/6eme/_debut-demain/sudoku-3.png)
 
 # Ex 5 - Argent
 
@@ -51,7 +51,7 @@ $ 12 + 2\times 6 - 100 \times 0
 
 # Ex 10 - Pixel Art
 
-![pa-2]()
+![pa-3](https://raw.githubusercontent.com/homeostasie/2022-2023_artic/master/doc/6eme/_debut-demain/pa-3.png)
 
 # Ex 11 - HP / MP
 
@@ -71,7 +71,7 @@ Est-il toujours en vie ?
 
 # Ex 13 - Pixel Art
 
-![pa-4]()
+![pa-4](https://raw.githubusercontent.com/homeostasie/2022-2023_artic/master/doc/6eme/_debut-demain/pa-4.png)
 
 # Ex 14 - HP / MP
 

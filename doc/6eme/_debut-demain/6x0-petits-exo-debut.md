@@ -1,7 +1,7 @@
 # Exercice pour de d�but de cours.
 
-**L'occassion de sortir ses affaires et se mettre en recherche rapidement.**
-**L'exercice peut �tre ramass� et not�.**
+**L'occasion de sortir ses affaires et se mettre en recherche rapidement.**
+**L'exercice peut être ramassé et noté.**
 
 # Ex 1 - Sudoku
 
@@ -12,7 +12,7 @@
 * $6 + 14 = ...$
 * $0 + ... = 19$
 * Quelle est la somme de 15 et de 16 ?
-* Quel nombre ajouter � 13 pour obtenir 20 ?
+* Quel nombre ajouter à 13 pour obtenir 20 ?
 * $8 + 18 = ...$
 
 # Ex 3 - Multiplication
@@ -31,16 +31,16 @@
 
 * Quel est le double de 121 ?
 * Quel est le triple de 55 ?
-* Quel est la moiti� de 24 ?
+* Quel est la moitié de 24 ?
 * Quel est le tiers de 24 ?
 * Quel est le double de 61 ?
 
 # Ex 6 - Temps
 
-* Le train arriv� � 20 h 20 �tait parti il y a 14 min. � quelle heure �tait-il parti ?
-* Le train de 16 h 30 arrivera avec 45 min de retard. � quelle heure va-t-il arriver ?
-* Le train de 11 h 10 est arriv� avec 1 h 20 min d'avance. � quelle heure est-il arriv� ?
-* Il est 21 h 55. Quelle heure �tait-il 5 h 10 min avant ?
+* Le train arrive à 20 h 20 était parti il y a 14 min. À quelle heure était-il parti ?
+* Le train de 16 h 30 arrivera avec 45 min de retard. À quelle heure va-t-il arriver ?
+* Le train de 11 h 10 est arrivé avec 1 h 20 min d'avance. À quelle heure est-il arrivé ?
+* Il est 21 h 55. Quelle heure était-il 5 h 10 min avant ?
 
 # Ex 7 - Sudoku
 

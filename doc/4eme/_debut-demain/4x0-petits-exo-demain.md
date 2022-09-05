@@ -25,11 +25,11 @@ Complémentaire à 100.
 
 # Ex 4 - Sudoku
 
-![sudoku-3]()
+![sudoku-3](https://raw.githubusercontent.com/homeostasie/2022-2023_artic/master/doc/6eme/_debut-demain/sudoku-3.png)
 
 # Ex 5 - Pixel Maths
 
-![fig1]()
+![fig-1](https://raw.githubusercontent.com/homeostasie/2022-2023_artic/master/doc/6eme/_debut-demain/pm-1.png)
 
 # Ex 6  Calculer 
 *avec les étapes.*
@@ -54,7 +54,7 @@ Chercher et écrire une définition d'un cercle :
 
 # Ex 9 - Pixel Art
 
-![pa-2]()
+![pa-3](https://raw.githubusercontent.com/homeostasie/2022-2023_artic/master/doc/6eme/_debut-demain/pa-3.png)
 
 # Ex 10 - HP / MP
 
@@ -80,7 +80,7 @@ Calculer $−3 + 3 \times v pour v=0$
 
 # Ex 12 - Pixel Art
 
-![pa-4]()
+![pa-4](https://raw.githubusercontent.com/homeostasie/2022-2023_artic/master/doc/6eme/_debut-demain/pa-4.png)
 
 # Ex 13 - HP / MP
 

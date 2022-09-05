@@ -1,18 +1,18 @@
-# Exercice pour de début de cours.
+# Exercice pour de dï¿½but de cours.
 
-**L'occassion de sortir ses affaires et se mettre en recherche rapidement.**
-**L'exercice peut être ramassé et noté.**
+**L'occasion de sortir ses affaires et se mettre en recherche rapidement.**
+**L'exercice peut Ãªtre ramassÃ© et notï¿½.**
 
 # Ex 1 - Sudoku
 
-![sudoku-1]()
+![sudoku-1](https://raw.githubusercontent.com/homeostasie/2022-2023_artic/master/doc/6eme/_debut-demain/sudoku-1.png)
 
 # Ex 2 - Addition
 
 * $16 + 14 = ...$
 * $0 + ... = 19$
 * Quelle est la somme de 15 et de 16 ?
-* Quel nombre ajouter à 13 pour obtenir 110 ?
+* Quel nombre ajouter Ã  13 pour obtenir 110 ?
 * $8 - 18 = ...$
 
 # Ex 3 - Multiplication
@@ -25,26 +25,26 @@
 
 # Ex 3 - Pixel Art
 
-![pa-1]()
+![pa-1](https://raw.githubusercontent.com/homeostasie/2022-2023_artic/master/doc/6eme/_debut-demain/pa-1.png)
 
-# Ex 4 - Double / Moitié
+# Ex 4 - Double / Moitiï¿½
 
 * Quel est le double de 121 ?
 * Quel est le triple de 55 ?
-* Quel est la moitié de 24 ?
+* Quel est la moitiÃ© de 24 ?
 * Quel est le tiers de 24 ?
 * Quel est le double de 61 ?
 
 # Ex 5 - Temps
 
-* Le train arrivé à 20 h 20 était parti il y a 14 min. À quelle heure était-il parti ?
-* Le train de 16 h 30 arrivera avec 45 min de retard. À quelle heure va-t-il arriver ?
-* Le train de 11 h 10 est arrivé avec 1 h 20 min d'avance. À quelle heure est-il arrivé ?
-* Il est 21 h 55. Quelle heure était-il 5 h 10 min avant ?
+* Le train arrive Ã  20 h 20 Ã©tait parti il y a 14 min. Ã€ quelle heure Ã‰tait-il parti ?
+* Le train de 16 h 30 arrivera avec 45 min de retard. Ã€ quelle heure va-t-il arriver ?
+* Le train de 11 h 10 est arrivÃ‰ avec 1 h 20 min d'avance. Ã€ quelle heure est-il arrivÃ© ?
+* Il est 21 h 55. Quelle heure Ã‰tait-il 5 h 10 min avant ?
 
 # Ex 6 - Sudoku
 
-![sudoku-2]()
+![sudoku-2](https://raw.githubusercontent.com/homeostasie/2022-2023_artic/master/doc/6eme/_debut-demain/sudoku-2.png)
 
 # Ex 7 - fois 10
 
@@ -66,7 +66,7 @@
 
 # Ex 9 - Pixel Art
 
-![pa-2]()
+![pa-2](https://raw.githubusercontent.com/homeostasie/2022-2023_artic/master/doc/6eme/_debut-demain/pa-2.png)
 
 
 # Ex 9 - rectangle

@@ -4,7 +4,7 @@
 **L'exercice peut être ramassé et noté.**
 
 # Ex 1 - Calculer
-Écrire la table de 4.
+écrire la table de 4.
 
 $4 \times 0 = 0$
 $4 \times 1 = ...$
@@ -67,7 +67,7 @@ Est-il toujours en vie ?
 
 # Ex 12 - Calculer
 
-**Écrire la table de 5.**
+**écrire la table de 5.**
 
 # Ex 13 - Pixel Art
 

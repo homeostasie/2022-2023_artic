@@ -40,11 +40,12 @@ Remarque : *Ajouter un nombre négatif n'augmente pas le résultat.*
 
 On peut transformer les additions en soustractions.
 
-10 + (-2) = 10 - 2 
-          = 8
+$10 + (-2) = 10 - 2$ 
+$10 + (-2) = 8$
 		  
-20 - (-4) = 20 + 4
-          = 24		  
+
+$20 - (-4) = 20 + 4$
+$20 - (-4) = 24	$	  
 
 Il n'y a pas de règle facile à retenir. Il faut s'entraîner et réfléchir. 
 
@@ -54,10 +55,10 @@ L'exercice type est le calcul à trou.
 
 La règle des signes est simple à retenir.
 
-$+ \times + = +$
-$+ \times - = -$
-$- \times + = -$
-$- \times - = +$
+* $+ \times + = +$
+* $+ \times - = -$
+* $- \times + = -$
+* $- \times - = +$
 
 Exemple
 

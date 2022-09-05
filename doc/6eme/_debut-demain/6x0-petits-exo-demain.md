@@ -34,7 +34,7 @@ Si je donne des billets : 5 €, 50 €, pour payer 51,50€, combien me rend-on
 
 # Ex 6 - Pixel Maths
 
-![fig1]()
+![fig-1](https://raw.githubusercontent.com/homeostasie/2022-2023_artic/master/doc/6eme/_debut-demain/pm-1.png)
 
 # Ex 7  Calculer 
 *avec les étapes.*

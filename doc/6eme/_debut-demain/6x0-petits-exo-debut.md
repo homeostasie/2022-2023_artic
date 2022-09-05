@@ -1,4 +1,4 @@
-# Exercice pour de d�but de cours.
+# Exercice pour de début de cours.
 
 **L'occasion de sortir ses affaires et se mettre en recherche rapidement.**
 **L'exercice peut être ramassé et noté.**

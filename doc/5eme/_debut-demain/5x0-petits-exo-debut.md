@@ -27,7 +27,7 @@
 
 ![pa-1](https://raw.githubusercontent.com/homeostasie/2022-2023_artic/master/doc/6eme/_debut-demain/pa-1.png)
 
-# Ex 4 - Double / Moiti�
+# Ex 4 - Double / Moitié
 
 * Quel est le double de 121 ?
 * Quel est le triple de 55 ?
@@ -37,7 +37,7 @@
 
 # Ex 5 - Temps
 
-* Le train arrive à 20 h 20 �tait parti il y a 14 min. À quelle heure Était-il parti ?
+* Le train arrive à 20 h 20 était parti il y a 14 min. À quelle heure Était-il parti ?
 * Le train de 16 h 30 arrivera avec 45 min de retard. À quelle heure va-t-il arriver ?
 * Le train de 11 h 10 est arrivé avec 1 h 20 min d'avance. À quelle heure est-il arrivÉ ?
 * Il est 21 h 55. Quelle heure était-il 5 h 10 min avant ?

@@ -1,6 +1,6 @@
 # Dossiers
 CODE := $(shell pwd)
-PDFDIR = ../../pdf/4eme
+PDFDIR = ../../pdf/6eme
 THEME = 
 
 # Visualiser les pdf

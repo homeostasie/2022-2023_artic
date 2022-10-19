@@ -5,7 +5,7 @@
 * **À partir d'une recherche à l'aide d'un moteur de recherche**
 On utilisera principalement Wikipédia : https://fr.wikipedia.org/wiki/Programme_Apollo#Les_missions_lunaires
 
-### 1. Que signifie NASA ?
+### 1. Que signifie les lettres N. A. S. et A. dans NASA ?
 ....................................................................................................................................
 
 	
@@ -13,9 +13,9 @@ On utilisera principalement Wikipédia : https://fr.wikipedia.org/wiki/Programme
 ### 2. Quelle est la période du programme spatial Appolo ?
 ....................................................................................................................................
 
-
+* Appolo étant le nom du ............................................................................................................
 	
-### 3. Quelles sont les 7 programmes Appolo qui se sont posés sur la lune. Rajouter l'année.
+### 3. Quelles sont les 7 programmes Appolo qui se sont posés sur la lune. Ajouter l'année.
 
 *....................................................................................................................................
 
@@ -45,7 +45,6 @@ On utilisera principalement Wikipédia : https://fr.wikipedia.org/wiki/Programme
 
 ....................................................................................................................................
 
-###	5/ Qui sont les dernières personnes à avoir marché sur la Lune ?
-* ....................................................................................................................................
+### 5. Combien de personnes ont marché sur la Lune ?
 
-* ....................................................................................................................................
+....................................................................................................................................

@@ -28,6 +28,10 @@ img: $(FIGOBJ)
 4xbb/%.pdf: 4xbb/%.ipe
 	ipetoipe -pdf $<
 
+dm3:
+	pdflatex 4x0-DM/4x3-dm-appolo.tex
+	pdflatex 4x0-DM/4x3-dm-appolo.tex
+	mv 4x3-dm-appolo.pdf '$(PDFDIR)'/4x3-dm-appolo.pdf
 1ie:
 	pdflatex 4x1-relatifs/4x1-ie.tex
 	pdflatex 4x1-relatifs/4x1-ie.tex

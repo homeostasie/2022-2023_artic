@@ -1,0 +1,393 @@
+\input{../doc-class-bb.tex}
+
+
+\begin{document}
+
+\begin{titlepage}
+
+\center % Center everything on the page
+
+\textsc{\LARGE Collège Faubert}\\[2cm] % Name of your university/college
+%\textsc{\Large }\\[0.5cm] % Major heading such as course name
+\textsc{\large Villefranche}\\[2cm] % Minor heading such as course title
+
+\horrule{2px}
+
+\vspace{1cm}
+
+{ \Huge \bfseries Brevet blanc}\\[2cm] % Title of your document
+{ \Huge \bfseries Mathématiques}\\[2cm] % Title of your document
+{\large \bfseries 2023}\\[2cm] 
+
+\horrule{2px}
+
+\vspace{1cm}
+
+\begin{itemize}[label={$\bullet$}]
+  \item \textsc{Exercice 1} - 13 points     
+  \item \textsc{Exercice 2} - 15 points 
+  \item \textsc{Exercice 3} - 10 points 
+  \item \textsc{Exercice 4} - 13 points 
+  \item \textsc{Exercice 5} - 14 points 
+  \item \textsc{Exercice 6} - 19 points 
+  \item \textsc{Exercice 7} - 16 points 
+\end{itemize}
+
+\vspace{1cm}
+
+\horrule{2px}
+
+\vspace{1cm}
+
+\textbf{L'annexe est à rendre avec sa copie. Écrire son numéro de candidat.}
+
+\vspace{1cm}
+
+\begin{itemize}
+  \item L'usage de la calculatrice de type collège est autorisé.
+  \item L'usage de tout autre document est interdit. 
+\end{itemize}
+
+\vfill 
+
+\end{titlepage}
+
+
+\subsection*{Exercice 1 - 13 points}
+
+La marée est un mouvement régulier et périodique des eaux des océans. Elle est due à l'attraction exercée par la lune et le soleil sur ces eaux. Le niveau le plus haut atteint par la mer au cours d'un cycle de marée est appelé \textit{marée haute} ou \textit{pleine mer}. Le niveau le plus bas se nomme \textit{marée basse} ou \textit{basse mer}.
+
+Le graphique ci-dessous représente un cycle de marée au Mont-Saint-Michel.
+
+\begin{center}
+\begin{tikzpicture}
+    \begin{axis}%
+      [grid=both,
+       minor tick num=3,
+       grid style={line width=.1pt, draw=gray!30},
+       major grid style={line width=.2pt,draw=gray!90},
+       axis lines=middle,
+       xmin=5,xmax=17,ymin=0,ymax=10,
+       xtick={5,6,7,8,9,10,11,12,13,14,15,16,17},
+       xticklabels={5,6,7,8,9,10,11,12,13,14,15,16,17},
+       ytick={0,1,2,3,4,5,6,7,8,9,10},
+       yticklabels={0,1,2,3,4,5,6,7,8,9,10},
+       xlabel=Heures de la journée,
+       ylabel=Hauteur d'eau en mètre
+      ]
+      \addplot[domain=5:17,samples=50,smooth,red] {2*cos(deg(pi*(x+9)/6)) + 7};
+    \end{axis}
+  \end{tikzpicture}
+\end{center}
+
+\begin{enumerate}
+    \item Quelle est la hauteur d'eau en mètre à 13 heures ?
+    \item À quelles heures de la journée la hauteur de l'eau était-elle de 7.5 mètres ?
+    \item Quelle était la hauteur d'eau en mètre à 7h45 ?
+    \item À quelle heure a eu lieu la marée basse ?
+    \item Au cours d'un cycle de marée, la différence de hauteur entre la pleine mer et la basse mer s'appelle le \textit{marnage}. \\
+    Déterminer le marnage ce jour là au Mont-Saint-Michel.
+\end{enumerate}
+
+\subsection*{Exercice 2 - 15 points}
+
+
+\medskip
+
+\emph{Pour illustrer l'exercice, la figure ci-dessous a été faite à main levée.}
+
+\begin{center}\psset{unit=1cm}
+\begin{pspicture}(8,5)
+    \pslineByHand(0.5,2.5)(7.5,4)
+    \pslineByHand(2,0.5)(6,4.8)
+    \pslineByHand(2,0.5)(0.5,2.5)
+    \pslineByHand(6,4.8)(7.5,4)
+    \pslineByHand(3,3)(4,2.6)
+    \uput[ul](4.75,3.4){A}\uput[r](7.5,4){B}\uput[u](6,4.8){C}
+    \uput[l](0.5,2.5){D} \uput[d](2,0.5){E}\uput[ul](3,3){F}\uput[dr](3.8,2.6){G}
+    \rput{-50}(1.2,1.2){8,1 cm}\rput{-27}(3.3,2.6){3 cm}
+    \rput{46}(3.2,1.4){6,8 cm}\rput{45}(4.4,2.78){4 cm}
+    \rput{15}(3.6,3.4){5 cm}\rput{45}(5.2,4.3){5 cm}
+    \rput{15}(6,3.4){6,25 cm}
+\end{pspicture}
+\end{center}
+
+Les points D, F, A et B sont alignés, ainsi que les points E, G, A et C.
+
+De plus, les droites (DE) et (FG) sont parallèles.
+
+\medskip
+
+\begin{enumerate}
+\item Montrer que le triangle AFG est un triangle rectangle.
+\item Calculer la longueur du segment [AD]. En déduire la longueur du segment [FD].
+\item Les droites (FG) et (BC) sont-elles parallèles ? Justifier.
+\end{enumerate}
+
+\newpage
+
+\subsection*{Exercice 3 - 10 points}
+
+\medskip
+
+Les représentations graphiques $C_1$ et $C_2$ de deux fonctions sont données dans le repère
+ci-dessous.
+
+Une de ces deux fonctions est la fonction $f$ définie par $f(x) = -2x + 8$.
+
+\medskip
+
+\parbox{0.40\linewidth}{\psset{unit=0.6cm}
+\begin{pspicture*}(-2,-1.5)(8.5,12.5)
+    \psgrid[gridlabels=0,subgriddiv=1,gridwidth=0.2pt]
+    \psaxes[linewidth=1.25pt,labelFontSize=\scriptstyle]{->}(0,0)(-2,-1.5)(8.5,12.5)
+    \psplot[plotpoints=2000,linewidth=1.25pt]{-2}{4.5}{8 2 x mul sub}
+    \psplot[plotpoints=2000,linewidth=1.25pt,linecolor=blue]{-2}{6.5}{x 3 sub dup mul 1 sub}
+    \rput(-1.5,10){$C_2$}\rput(6.8,10){\blue $C_1$}
+\end{pspicture*}}\hfill
+\parbox{0.58\linewidth}{\begin{enumerate}
+    \item[1.] Laquelle de ces deux représentations est celle de la fonction $f$ ?
+    \item[2.] Que vaut $f(3)$ ?
+    \item[3.] Calculer le nombre qui a pour image 6 par la fonction $f$.
+\end{enumerate}
+}
+
+\medskip
+
+\begin{tabularx}{\linewidth}{|c|*{7}{>{\centering \arraybackslash}X|}}\hline
+	&A		&B		&C		&D	&E	&F	&G\\ \hline
+1	&$x$	&$- 2$	&$- 1$	&0	&1	&2	&3\\ \hline
+2	&$f(x)$	&		&		&	&	&	&\\ \hline
+\end{tabularx}
+
+\medskip
+{\begin{enumerate}
+    \item[4.] La feuille de calcul ci -dessous permet de calculer des images par la fonction $f$.\\
+    Quelle formule peut-on saisir dans la cellule B2 avant de l'étirer vers la droite jusqu'à la cellule G2 ?
+\end{enumerate}
+
+\subsection*{Exercice 4 - 13 points}
+
+\medskip
+
+Pendant les vacances, Robin est allé visiter le phare Amédée.
+
+\smallskip
+
+\parbox{0.5\linewidth}{Lors d'une sieste sur la plage il a remarqué que le sommet d'un parasol était en parfait alignement avec le sommet du phare. Robin a donc pris quelques mesures et a décidé de faire un schéma de la situation dans le sable pour trouver une estimation de la hauteur du phare.
+
+\bigskip
+
+\begin{itemize}[label={$\bullet$}]
+\item Les points B, J et R sont alignés.
+\item (SB) et (BR) sont perpendiculaires.
+\item (PJ) et (BR) sont perpendiculaires.
+\end{itemize}
+} \hfill \parbox{0.48\linewidth}{\psset{unit=1cm}
+\begin{pspicture}(-1,0)(5,8)
+%\psgrid
+\psline(0.5,1)(0.6,7)(0.8,7)(0.9,1)
+\psline(0.5,1)(4.5,1)
+\psline[linestyle=dashed](4.5,1)(0.8,7)
+\rput{90}(0.2,4){Phare}\rput(4.5,2){Parasol}\rput(4.7,1.5){Moi}
+\psline{->}(4.7,1.5)(4.5,1)\psline{->}(4.5,1.8)(3.6,1.6)
+\uput[u](0.7,7){S} \uput[dl](0.5,1){B} \uput[dl](3.6,1){J}
+\uput[dr](4.5,1){R} \uput[ur](3.6,2.4){P}
+\psline{<->}(0.5,0.4)(4.5,0.4)\uput[d](2.5,0.5){34,7 m}
+\psline{<->}(3.2,1)(3.2,2.6)\uput[l](3.2,1.8){2,1 m}
+\psline{<->}(3.5,0.8)(4.5,0.8)\uput[d](4,0.85){1,3 m} 
+\pspolygon(3.5,2.6)(3.6,1.4)(3.4,1.4)
+\psline(3.5,1.4)(3.5,1)
+\psline(0.92,1.3)(1.2,1.3)(1.2,1)\psline(3.5,1.3)(3.8,1.3)(3.8,1)
+\end{pspicture}}
+
+\medskip
+
+\begin{enumerate}
+    \item[1.] Quelle hauteur, arrondie au mètre, va-t-il trouver à l'aide de son plan ? Justifier la réponse.
+    \item[2.] Déterminer la longueur SR. 
+    \item[3.] En déduire la longueur SP.
+\end{enumerate}
+
+\newpage
+
+\subsection*{Exercice 5 - 14 points}
+
+
+\medskip
+
+\parbox{0.3\linewidth}{Voici un programme de calcul :}\hfill
+\parbox{0.68\linewidth}{
+\begin{tabular}{|l|}\hline
+$\bullet~~$Choisir un nombre\\
+$\bullet~~$Ajouter 1 à ce nombre\\
+$\bullet~~$Calculer le carré du résultat\\
+$\bullet~~$Soustraire le carré du nombre de départ au résultat précédent.\\
+$\bullet~~$Écrire le résultat.\\ \hline
+\end{tabular}
+}
+
+\medskip
+
+\begin{enumerate}
+\item On choisit 4 comme nombre de départ. Prouver par le calcul que le résultat obtenu avec le programme
+est 9.
+\item On note $x$ le nombre choisi.\newline
+	Exprimer le résultat du programme en fonction de $x$.\\
+
+    \item On admettra que le résultat du programme de calcul est égal à $2x +1$. \\
+    Soit $f$ la fonction définie par $f(x) = 2x + 1$.
+	\begin{enumerate}
+		\item Calculer l'image de 0 par $f$.
+		\item Déterminer par le calcul l'antécédent de $5$ par $f$.
+		\item En annexe, tracer la droite représentative de la fonction $f$.
+		\item Par lecture graphique, déterminer le résultat obtenu en choisissant $- 3$ comme nombre de départ dans le programme de calcul. Sur l'annexe, laisser les traits de construction apparents.
+	\end{enumerate}	
+\end{enumerate}
+
+
+\subsection*{Exercice 6 - 19 points}
+
+\medskip
+
+Avec un logiciel de géométrie, on exécute le programme ci-dessous.
+
+\medskip
+
+\parbox{0.45\linewidth}{Programme de construction :}\hfill\parbox{0.53\linewidth}{\qquad \qquad Figure obtenue:}
+
+\parbox{0.45\linewidth}{\begin{itemize}[label={$\bullet$}]
+    \item Construire un carré ABCD ;
+    \item Tracer le cercle de centre A et de rayon [AC] ;
+    \item Placer le point E à l'intersection du cercle et de la demi-droite [AB) ;
+    \item Construire un carré DEFG.
+\end{itemize}}\hfill
+\parbox{0.53\linewidth}{ 
+\psset{unit=1cm}
+\begin{pspicture}(-2.2,-2)(4.2,4.2)
+%\psgrid
+\psframe[fillstyle=solid,fillcolor=lightgray](1.414,1.414)
+\rput{55.5}(2,0){\psframe[fillstyle=solid,fillcolor=lightgray](0,0)(2.4495,2.4495)}
+\psframe[fillstyle=solid,fillcolor=lightgray](1.414,1.414)
+\pscircle(0,0){2}
+\pspolygon[fillstyle=solid,fillcolor=gray](0,1.414)(1.414,0.414)(1.414,1.414)
+\psline(4.2,0)
+
+\uput[dl](0,0){A} \uput[d](1.414,0){B} \uput[ur](1.414,1.414){C} 
+\uput[ul](0,1.414){D} \uput[dr](2,0){E} \uput[r](3.4,2){F} 
+\uput[u](1.414,3.4){G}
+\rput(1.1,4){} 
+\end{pspicture}
+}
+
+\begin{enumerate}
+\item Sur la copie, réaliser la construction avec AB $=3$~cm.
+\item Dans cette question, AB $= 10~$cm.
+	\begin{enumerate}
+		\item Montrer que AC $= \sqrt{200}$~cm.
+		\item Expliquer pourquoi AE $= \sqrt{200}$~cm.
+		\item Montrer que l'aire du carré DEFG est le triple de l'aire du carré ABCD.
+	\end{enumerate}
+\item On admet pour cette question que pour n'importe quelle longueur du côté [AB],
+l'aire du carré DEFG est toujours le triple de l'aire du carré ABCD.
+	
+En exécutant ce programme de construction, on souhaite obtenir un carré DEFG ayant
+une aire de 48 cm$^2$.
+	
+Quelle longueur AB faut-il choisir au départ ?
+\end{enumerate}
+
+
+\newpage
+
+\subsection*{Exercice 7 - 16 points}
+
+\medskip
+
+Un site internet propose de télécharger légalement des clips vidéos. Pour cela, sur la page d'accueil, trois choix s'offrent à nous:
+
+\setlength\parindent{8mm}
+\begin{itemize}[label={$\bullet$}]
+    \item Premier choix : téléchargement \textbf{direct sans inscription}. Avec ce mode, chaque clip peut être téléchargé pour 4~euros.
+    \item Deuxième choix: téléchargement \textbf{membre}. Ce mode nécessite une inscription à 10~euros.
+    valable un mois et permet d'acheter par la suite chaque clip pour 2 euros.
+    \item Troisième choix : téléchargement \textbf{premium}. Une inscription à 50~euros permettant de télécharger tous les clips gratuitement pendant un mois.
+\end{itemize}
+\setlength\parindent{0mm}
+
+\medskip
+
+\begin{enumerate}
+\item Je viens pour la première fois sur ce site et je souhaite télécharger un seul clip.
+
+Quel est le choix le moins cher ?
+\item Pour cette question, utiliser l'annexe.
+	\begin{enumerate}
+		\item Compléter le tableau.
+		\item À partir de combien de clips devient-il intéressant de s'inscrire en tant que membre ?
+	\end{enumerate}
+\item Dans cette question, $x$ désigne le nombre de clips vidéos achetés.
+	
+$f,\: g$ et $h$ sont trois fonctions définies par :
+	
+\setlength\parindent{8mm}
+\begin{itemize}[label={$\bullet$}]
+    \item $f(x) = 50$
+    \item $g(x) = 4x$
+    \item $h(x) = 2x + 10$
+\end{itemize}
+\setlength\parindent{0mm}
+
+	\begin{enumerate}
+		\item Associer chacune de ces fonctions au choix qu'elle représente (direct, membre ou premium).
+		\item Dans le repère de l'annexe 2, tracer les droites représentant les fonctions $f,\: g$ et $h$.
+		\item À l'aide du graphique, déterminer le nombre de clips à partir duquel l'offre premium devient la moins chère.
+	\end{enumerate}
+\end{enumerate}
+
+\vspace{0,5cm}
+
+\newpage \null 
+
+\newpage
+
+\textbf{Numéro de Candidat : } \fbox{\phantom{$\dfrac{10000000000000000000000000000}{0}$}}
+
+\textbf{Annexe - Exercice 5}
+
+\begin{center}
+
+\psset{unit=0.5cm}
+\begin{pspicture}(-10,-9)(10,9)
+    \psgrid[gridlabels=0pt,subgriddiv=1,griddots=10]
+    \psaxes[linewidth=1.25pt,Dx=2,Dy=2]{->}(0,0)(-10,-9)(10,9)
+    \uput[u](9.5,0){$x$}\uput[r](0,9.5){$y$}
+\end{pspicture}
+
+\end{center}
+
+\textbf{Annexe - Exercice 8}
+
+\begin{center}    
+    
+\begin{tabularx}{\linewidth}{|m{3cm}|*{5}{>{\centering \arraybackslash}X|}}\hline
+    Nombre de clips &1 &2 &5 &10 &15\\ \hline
+    Prix en euros pour le téléchargement direct&4 &8&&&\\ \hline
+    Prix en euros pour le téléchargement membre&12 &14&&&\\ \hline
+    Prix en euros pour le téléchargement premium&50 &50&&&\\ \hline
+\end{tabularx}
+    
+    
+\psset{xunit=0.5cm,yunit=0.1cm}
+\begin{pspicture}(-1,-10)(24,65)
+    \multido{\n=0+1}{25}{\psline[linewidth=0.2pt](\n,0)(\n,60)}
+    \multido{\n=0+5}{13}{\psline[linewidth=0.2pt](0,\n)(24,\n)}
+    \psaxes[linewidth=1.25pt,Dy=100]{->}(0,0)(24,60)
+    \multido{\n=0+5}{13}{\uput[l](0,\n){\n}}
+    \uput[d](20.5,-4){Nombre de clips achetés}
+    \uput[r](0,62.5){Prix en euros}
+\end{pspicture}
+
+\end{center}
+
+\end{document}

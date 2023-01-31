@@ -57,6 +57,11 @@ dm3:
 	pdflatex 4x5-pythagore/4x5-ie.tex
 	mv 4x5-ie.pdf '$(PDFDIR)'/4x5-ie-pythagore.pdf
 
+6ie:
+	pdflatex 4x6-equations/4x6-ie.tex
+	pdflatex 4x6-equations/4x6-ie.tex
+	mv 4x6-ie.pdf '$(PDFDIR)'/4x6-ie-equations.pdf	
+
 # nettoyage		
 proper:
 	rm -f *.log *.toc *.aux *.nav *.snm *.out *.bbl *.blg *.dvi *.ps

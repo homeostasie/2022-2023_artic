@@ -1,0 +1,139 @@
+\documentclass[10pt,a4paper,landscape]{article}
+
+\usepackage{geometry,marginnote} % Pour passer au format A4
+\geometry{hmargin=1cm, vmargin=1cm} % 
+
+% Page et encodage
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\usepackage[english,french]{babel} % Français et anglais
+\usepackage[utf8]{inputenc} 
+
+\usepackage{lmodern,numprint}
+\setlength\parindent{0pt}
+
+% Graphiques
+\usepackage{graphicx,float,grffile,units}
+\usepackage{tikz,pst-eucl,pst-plot,pstricks,pst-node,pstricks-add,pst-fun} 
+
+% Maths et divers
+\usepackage{amsmath,amsfonts,amssymb,amsthm,verbatim}
+\usepackage{multicol,enumitem,url,eurosym,gensymb,tabularx}
+
+\DeclareUnicodeCharacter{20AC}{\euro}
+
+% Sections
+\usepackage{sectsty} % Allows customizing section commands
+\allsectionsfont{\centering \normalfont\scshape}
+
+% Tête et pied de page
+\usepackage{fancyhdr} \pagestyle{fancyplain} \fancyhead{} \fancyfoot{}
+
+\renewcommand{\headrulewidth}{0pt} % Remove header underlines
+\renewcommand{\footrulewidth}{0pt} % Remove footer underlines
+
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} % Create horizontal rule command with 1 argument of height
+
+\newcommand{\Pointilles}[1][3]{%
+  \multido{}{#1}{\makebox[\linewidth]{\dotfill}\\[\parskip]
+}}
+
+\newtheorem{Definition}{Définition}
+
+\usepackage{siunitx}
+\sisetup{
+    detect-all,
+    output-decimal-marker={,},
+    group-minimum-digits = 3,
+    group-separator={~},
+    number-unit-separator={~},
+    inter-unit-product={~}
+}
+
+\setlength{\columnseprule}{1pt}
+
+\begin{document}
+
+\begin{multicols}{3}
+\section*{Probabilité - Problèmes}
+
+\subsection*{Exercice 1}
+Dans la vitrine d’un magasin A sont présentés au total 45 modèles de chaussures. Certaines sont conçues pour la ville, d’autres pour le sport et sont de trois couleurs différentes : noire, blanche ou marron. 
+
+\begin{enumerate}
+\item Compléter le tableau suivant 
+
+\begin{center}
+      \begin{tabular}{|c|c|c|c|} \hline
+
+Modèle 	&Pour la ville 	&Pour le sport 	&Total\\ \hline
+Noir 	&				&5				&20\\ \hline
+Blanc	&7				&				&\\ \hline
+Marron	&				&3				&\\ \hline
+Total 	&27				&				&45\\ \hline
+\end{tabular}
+\end{center}
+
+\item On choisit un modèle de chaussures au hasard dans cette vitrine.
+\begin{enumerate}
+    \item Quelle est la probabilité de choisir un modèle de couleur noire ?
+    \item Quelle est la probabilité de choisir un modèle pour le sport ?
+    \item Quelle est la probabilité de choisir un modèle pour la ville de couleur marron ?
+\end{enumerate}
+\item Dans la vitrine d’un magasin B, on trouve 54 modèles de chaussures dont 30 de couleur noire. On choisit au hasard un modèle de chaussures dans la vitrine du magasin A puis dans celle du magasin B.
+
+Dans laquelle des deux vitrines a-t-on le plus de chance d’obtenir un modèle de couleur noire ? Justifier.
+\end{enumerate}  \columnbreak 
+\subsection*{Exercice 2}
+
+Damien a fabriqué trois dés à six faces parfaitement équilibrés mais un peu particuliers.
+
+\begin{itemize}
+    \item Sur les faces du premier dé sont écrits les six plus petits nombres pairs strictement positifs : 2; 4; 6; 8; 10; 12.
+    \item Sur les faces du deuxième dé sont écrits les six plus petits nombres impairs positifs. 
+    \item Sur les faces du troisième dé sont écrits les six plus petits nombres premiers. 
+\end{itemize}      
+Après avoir lancé un dé, on note le nombre obtenu sur la face du dessus.
+
+\begin{enumerate}
+    \item Quels sont les six nombres figurant sur le deuxième dé ?
+       Quels sont les six nombres figurant sur le troisième dé ?   
+    \item Zoé choisit le troisième dé et le lance. Elle met au carré le nombre obtenu. Léo choisit le premier dé et le lance. Il met au carré le nombre obtenu.
+    \begin{enumerate}
+       \item Zoé a obtenu un carré égal à 25. Quel était le nombre lu sur le dé qu’elle a lancé ?
+       \item Quelle est la probabilité que Léo obtienne un carré supérieur à celui obtenu par Zoé ?
+    \end{enumerate}
+    \item Mohamed choisit un des trois dés et le lance quatre fois de suite. Il multiplie les quatre nombres obtenus et obtient 525.
+    \begin{enumerate}
+       \item Peut-on déterminer les nombres obtenus lors des quatre lancers ? Justifier.
+       \item Peut-on déterminer quel est le dé choisi par Mohamed ? Justifier. 
+    \end{enumerate}
+\end{enumerate}  \columnbreak 
+
+\subsection*{Exercice 3}
+
+Sam préfère les bonbons bleus. 
+Dans son paquet de 500 bonbons, 150 sont bleus, les autres sont rouges, jaunes ou verts.
+
+\begin{enumerate}
+    \item Quelle est la probabilité qu’il pioche au hasard un bonbon bleu dans son paquet ?
+    \item 20\% des bonbons de ce paquet sont rouges. Combien y a-t-il de bonbons rouges ?     
+    \item Sachant qu’il y a 130 bonbons verts dans ce paquet, Sam a-t-il plus de chance de piocher au hasard un bonbon vert ou un bonbon jaune ?
+    \item Aïcha avait acheté le même paquet il y a quinze jours, il ne lui reste que 140 bonbons bleus,100 jaunes, 60 rouges et 100 verts. Elle dit à Sam : \og Tu devrais piocher dans mon paquet plutôt que dans le tien, tu aurais plus de chance d’obtenir un bleu \fg.
+A-t-elle raison? 
+\end{enumerate}
+
+\subsection*{Exercice 4}
+
+Mathilde fait tourner deux roues de loterie A et B comportant chacune quatre secteurs numérotés comme sur le schéma ci-dessous : 
+
+
+La probabilité d’obtenir chacun des secteurs d’une roue est la même. Les flèches indiquent les deux secteurs obtenus.L’expérience de Mathilde est la suivante : elle fait tourner les deux roues pour obtenir un nombre à deux chiffres. Le chiffre obtenu avec la roue A est le chiffre des dizaines et celui avec la roue B est le chiffre des unités. Dans l’exemple ci-dessus, elle obtient le nombre 27 (Roue A :2 et Roue B :7).
+
+\begin{enumerate}
+    \item Écrire tous les nombres possibles issus de cette expérience.
+    \item Prouver que la probabilité d’obtenir un nombre supérieur à 40 est 0,25.
+    \item Quelle est la probabilité que Mathilde obtienne un nombre divisible par 3 ?
+\end{enumerate}
+
+\end{multicols}
+\end{document}

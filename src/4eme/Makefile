@@ -62,6 +62,22 @@ dm3:
 	pdflatex 4x6-equations/4x6-ie.tex
 	mv 4x6-ie.pdf '$(PDFDIR)'/4x6-ie-equations.pdf	
 
+7murphy:
+	pdflatex 4x7-probabilite/4x7-dm-murphy.tex
+	pdflatex 4x7-probabilite/4x7-dm-murphy.tex
+	mv 4x7-dm-murphy.pdf '$(PDFDIR)'/4x7-dm-murphy.pdf	
+
+7rand:
+	pdflatex 4x7-probabilite/4x7-dm-rand.tex
+	pdflatex 4x7-probabilite/4x7-dm-rand.tex
+	mv 4x7-dm-rand.pdf '$(PDFDIR)'/4x7-dm-rand.pdf	
+
+7pb:
+	pdflatex 4x7-probabilite/4x7-pb.tex
+	pdflatex 4x7-probabilite/4x7-pb.tex
+	mv 4x7-pb.pdf '$(PDFDIR)'/4x7-pb.pdf	
+
+
 # nettoyage		
 proper:
 	rm -f *.log *.toc *.aux *.nav *.snm *.out *.bbl *.blg *.dvi *.ps

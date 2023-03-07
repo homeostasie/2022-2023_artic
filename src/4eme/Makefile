@@ -78,6 +78,12 @@ dm3:
 	mv 4x7-pb.pdf '$(PDFDIR)'/4x7-pb.pdf	
 
 
+7ie:
+	pdflatex 4x7-probabilite/4x7-ie.tex
+	pdflatex 4x7-probabilite/4x7-ie.tex
+	mv 4x7-ie.pdf '$(PDFDIR)'/4x7-ie.pdf
+
+
 # nettoyage		
 proper:
 	rm -f *.log *.toc *.aux *.nav *.snm *.out *.bbl *.blg *.dvi *.ps

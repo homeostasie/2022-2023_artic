@@ -53,7 +53,12 @@ img: $(FIGOBJ)
 5ie:
 	pdflatex 5x5-triangles/5x5-ie.tex
 	pdflatex 5x5-triangles/5x5-ie.tex
-	mv 5x5-ie.pdf '$(PDFDIR)'/5x5-ie.pdf	
+	mv 5x5-ie.pdf '$(PDFDIR)'/5x5-ie.pdf
+
+6ie:
+	pdflatex 5x6-proportionnalite/5x6-ie.tex
+	pdflatex 5x6-proportionnalite/5x6-ie.tex
+	mv 5x6-ie.pdf '$(PDFDIR)'/5x6-ie.pdf		
 
 # nettoyage		
 proper:

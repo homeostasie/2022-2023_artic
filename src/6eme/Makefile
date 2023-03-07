@@ -48,6 +48,13 @@ img: $(FIGOBJ)
 	pdflatex 6x5-fractions/6x5-ie.tex
 	pdflatex 6x5-fractions/6x5-ie.tex
 	mv 6x5-ie.pdf '$(PDFDIR)'/6x5-ie.pdf
+
+6ie:
+	pdflatex 6x6-pourcentage/6x6-ie.tex
+	pdflatex 6x6-pourcentage/6x6-ie.tex
+	mv 6x6-ie.pdf '$(PDFDIR)'/6x6-ie.pdf
+
+
 # nettoyage		
 proper:
 	rm -f *.log *.toc *.aux *.nav *.snm *.out *.bbl *.blg *.dvi *.ps

@@ -15,8 +15,6 @@
 ### George Berkeley
 - *Être, c’est être perçu.*
 
-
-
 ### Charlie Chaplin
 
 - *Il faut apprendre, non pas pour l'amour de la connaissance, mais pour se défendre contre le mépris dans lequel le monde tient les ignorants.*
@@ -58,7 +56,6 @@
 
 - *Un peuple prêt à sacrifier un peu de liberté pour un peu de sécurité ne mérite ni l'une ni l'autre, et finit par perdre les deux.*
 
-
 ### Stephen Hawking
 
 - *Le plus grand ennemi de la connaissance n'est pas l'ignorance. C'est l'illusion de la connaissance.*
@@ -75,19 +72,16 @@
 
 - *Bien souvent, les réponses les plus simples dans la vie sont celles qui ne nous viennent pas aussitôt à l'esprit.*
 
-
 ### John Locke
- - *L’expérience : c’est là le fondement de toutes nos connaissances.*
 
+ - *L’expérience : c’est là le fondement de toutes nos connaissances.*
 
 ### Henri Poincaré
 - *La logique, qui peut seule donner la certitude, est l’instrument de la démonstration : l’intuition est l’instrument de l’invention.*
 
-
 ### Pablo Picasso
 
 - *Un tableau ne vit que par celui qui le regarde.*
-
 
 ### Jean-Paul Sartre 
 - *L’enfer, c’est les autres.*

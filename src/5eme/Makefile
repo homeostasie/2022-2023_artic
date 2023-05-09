@@ -58,7 +58,12 @@ img: $(FIGOBJ)
 6ie:
 	pdflatex 5x6-proportionnalite/5x6-ie.tex
 	pdflatex 5x6-proportionnalite/5x6-ie.tex
-	mv 5x6-ie.pdf '$(PDFDIR)'/5x6-ie.pdf		
+	mv 5x6-ie.pdf '$(PDFDIR)'/5x6-ie.pdf
+
+7dm:
+	pdflatex 5x7-statistiques/5x7-dm.tex
+	pdflatex 5x7-statistiques/5x7-dm.tex
+	mv 5x7-dm.pdf '$(PDFDIR)'/5x7-dm.pdf		
 
 # nettoyage		
 proper:

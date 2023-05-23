@@ -91,6 +91,12 @@ dm3:
 	pdflatex 4x8-pythagore-2/4x8-dm.tex
 	mv 4x8-dm.pdf '$(PDFDIR)'/4x8-dm-pythagore.pdf
 
+9ie:
+	pdflatex 4x9-equations-2/4x9-ie.tex
+	pdflatex 4x9-equations-2/4x9-ie.tex
+	mv 4x9-ie.pdf '$(PDFDIR)'/4x9-ie-equations-2.pdf	
+
+
 # nettoyage		
 proper:
 	rm -f *.log *.toc *.aux *.nav *.snm *.out *.bbl *.blg *.dvi *.ps

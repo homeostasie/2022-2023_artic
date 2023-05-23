@@ -54,6 +54,12 @@ img: $(FIGOBJ)
 	pdflatex 6x6-pourcentage/6x6-ie.tex
 	mv 6x6-ie.pdf '$(PDFDIR)'/6x6-ie.pdf
 
+7ie:
+	pdflatex 6x7-calculs/6x7-ie.tex
+	pdflatex 6x7-calculs/6x7-ie.tex
+	mv 6x7-ie.pdf '$(PDFDIR)'/6x7-ie.pdf
+
+
 
 # nettoyage		
 proper:

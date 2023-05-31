@@ -59,7 +59,10 @@ img: $(FIGOBJ)
 	pdflatex 6x7-calculs/6x7-ie.tex
 	mv 6x7-ie.pdf '$(PDFDIR)'/6x7-ie.pdf
 
-
+8dm:
+	pdflatex 6x8-temps/6x8-dm.tex
+	pdflatex 6x8-temps/6x8-dm.tex
+	mv 6x8-dm.pdf '$(PDFDIR)'/6x8-dm.pdf
 
 # nettoyage		
 proper:

@@ -99,10 +99,15 @@ dm3:
 	pdflatex 4x9-equations-2/4x9-ie.tex
 	mv 4x9-ie.pdf '$(PDFDIR)'/4x9-ie-equations-2.pdf	
 
-10exo:
-	pdflatex 4x10-trigonometrie/4x10-exo.tex
-	pdflatex 4x10-trigonometrie/4x10-exo.tex
-	mv 4x10-exo.pdf '$(PDFDIR)'/4x10-exo-trigo.pdf	
+10pb:
+	pdflatex 4x10-trigonometrie/4x10-pb.tex
+	pdflatex 4x10-trigonometrie/4x10-pb.tex
+	mv 4x10-pb.pdf '$(PDFDIR)'/4x10-pb-trigo.pdf	
+
+10gra:
+	pdflatex 4x10-trigonometrie/4x10-graph.tex
+	pdflatex 4x10-trigonometrie/4x10-graph.tex
+	mv 4x10-graph.pdf '$(PDFDIR)'/4x10-graph-trigo.pdf	
 
 # nettoyage		
 proper:

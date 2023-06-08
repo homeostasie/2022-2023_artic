@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70218" creator="Ipe 7.2.24">
-<info created="D:20230530234428" modified="D:20230608231637"/>
+<info created="D:20230530234428" modified="D:20230608235832"/>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -313,6 +313,13 @@ h
 <layer name="alpha"/>
 <view layers="alpha" active="alpha"/>
 <path layer="alpha" stroke="black">
+256 704 m
+256 696 l
+264 696 l
+264 704 l
+h
+</path>
+<path stroke="black">
 128 0 0 128 256 640 e
 </path>
 <path stroke="black" dash="dotted">
@@ -365,7 +372,7 @@ h
 296 664 m
 46.6476 0 0 46.6476 256 640 256 686.648 a
 </path>
-<text matrix="1 0 0 1 -8 0" transformations="translations" pos="288 688" stroke="black" type="label" width="21.18" height="11.759" depth="0" valign="baseline" size="LARGE">46°</text>
+<text matrix="1 0 0 1 -8 0" transformations="translations" pos="288 688" stroke="black" type="label" width="21.18" height="11.759" depth="0" valign="baseline" size="LARGE">75°</text>
 <text transformations="translations" pos="240 624" stroke="black" type="label" width="12.392" height="11.761" depth="0" valign="baseline" size="LARGE">O</text>
 <text transformations="translations" pos="240 704" stroke="black" type="label" width="11.936" height="11.761" depth="0" valign="baseline" size="LARGE">A</text>
 </page>

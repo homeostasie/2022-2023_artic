@@ -109,6 +109,12 @@ dm3:
 	pdflatex 4x10-trigonometrie/4x10-graph.tex
 	mv 4x10-graph.pdf '$(PDFDIR)'/4x10-graph-trigo.pdf	
 
+
+10ie:
+	pdflatex 4x10-trigonometrie/4x10-ie.tex
+	pdflatex 4x10-trigonometrie/4x10-ie.tex
+	mv 4x10-ie.pdf '$(PDFDIR)'/4x10-ie-trigo.pdf		
+
 # nettoyage		
 proper:
 	rm -f *.log *.toc *.aux *.nav *.snm *.out *.bbl *.blg *.dvi *.ps

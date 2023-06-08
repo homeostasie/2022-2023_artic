@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70218" creator="Ipe 7.2.24">
-<info created="D:20230530234428" modified="D:20230608231637"/>
+<info created="D:20230608230536" modified="D:20230608230536"/>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -313,60 +313,42 @@ h
 <layer name="alpha"/>
 <view layers="alpha" active="alpha"/>
 <path layer="alpha" stroke="black">
-128 0 0 128 256 640 e
-</path>
-<path stroke="black" dash="dotted">
-144 608 m
-40 0 0 -40 168 640 144 672 a
-</path>
-<path stroke="black" dash="dotted">
-368 608 m
-40 0 0 40 344 640 368 672 a
-</path>
-<path stroke="black" dash="dotted">
-368 672 m
-195.305 0 0 195.305 256 512 144 672 a
-</path>
-<path stroke="black" dash="dotted">
-144 608 m
-195.305 0 0 195.305 256 768 368 608 a
-</path>
-<use name="mark/cross(sx)" pos="256 640" size="large" stroke="black"/>
-<path stroke="black" pen="fat">
-256 640 m
-384 640 l
-</path>
-<text transformations="translations" pos="296 656" stroke="black" type="label" width="21.816" height="11.766" depth="2.58" valign="baseline" size="LARGE" style="math">R_T</text>
-<use name="mark/cross(sx)" pos="368 704" size="large" stroke="black"/>
-<text transformations="translations" pos="392 704" stroke="black" type="label" width="10.365" height="11.761" depth="0" valign="baseline" size="LARGE">F</text>
-<path stroke="black" pen="fat">
-256 640 m
-368 704 l
-</path>
-<path stroke="black" pen="fat">
-145.363 704.618 m
-176.771 0 0 176.771 256.602 842 367.635 704.452 a
-</path>
-<path stroke="black" pen="fat">
-368 704 m
-195.488 0 0 195.488 256.08 543.721 145.262 704.764 a
-</path>
-<path stroke="black" pen="fat">
-256 784 m
-256 496 l
-</path>
-<text transformations="translations" pos="264 776" stroke="black" type="label" width="11.936" height="11.761" depth="0" valign="baseline" size="LARGE">N</text>
-<text transformations="translations" pos="264 488" stroke="black" type="label" width="8.795" height="11.761" depth="0" valign="baseline" size="LARGE">S</text>
-<path stroke="black" pen="fat">
-368 704 m
+128 704 m
 256 704 l
+128 768 l
+h
 </path>
-<path stroke="black" pen="fat">
-296 664 m
-46.6476 0 0 46.6476 256 640 256 686.648 a
+<path stroke="black">
+128 704 m
+128 720 l
+144 720 l
+144 704 l
+h
 </path>
-<text matrix="1 0 0 1 -8 0" transformations="translations" pos="288 688" stroke="black" type="label" width="21.18" height="11.759" depth="0" valign="baseline" size="LARGE">46°</text>
-<text transformations="translations" pos="240 624" stroke="black" type="label" width="12.392" height="11.761" depth="0" valign="baseline" size="LARGE">O</text>
-<text transformations="translations" pos="240 704" stroke="black" type="label" width="11.936" height="11.761" depth="0" valign="baseline" size="LARGE">A</text>
+<text transformations="translations" pos="192 752" stroke="black" type="label" width="43.974" height="11.097" depth="0" valign="baseline" size="LARGE">100cm</text>
+<path stroke="black">
+288 704 m
+288 768 l
+432 768 l
+h
+</path>
+<path stroke="black">
+288 768 m
+288 752 l
+304 752 l
+304 768 l
+h
+</path>
+<text transformations="translations" pos="368 720" stroke="black" type="label" width="36.978" height="11.097" depth="0" valign="baseline" size="LARGE">257m</text>
+<path stroke="black">
+211.921 726.039 m
+49.2814 0 0 49.2814 256 704 206.719 704 a
+</path>
+<path stroke="black">
+379.294 768 m
+52.7064 0 0 52.7064 432 768 383.836 746.594 a
+</path>
+<text transformations="translations" pos="176 712" stroke="black" type="label" width="21.18" height="11.759" depth="0" valign="baseline" size="LARGE">25°</text>
+<text transformations="translations" pos="352 752" stroke="black" type="label" width="21.18" height="11.759" depth="0" valign="baseline" size="LARGE">31°</text>
 </page>
 </ipe>

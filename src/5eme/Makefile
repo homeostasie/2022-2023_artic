@@ -74,6 +74,11 @@ img: $(FIGOBJ)
 	pdflatex 5x8-aires/5x8-ie.tex
 	mv 5x8-ie.pdf '$(PDFDIR)'/5x8-ie.pdf
 
+9ie:
+	pdflatex 5x9-relatifs/5x9-ie.tex
+	pdflatex 5x9-relatifs/5x9-ie.tex
+	mv 5x9-ie.pdf '$(PDFDIR)'/5x9-ie.pdf
+
 # nettoyage		
 proper:
 	rm -f *.log *.toc *.aux *.nav *.snm *.out *.bbl *.blg *.dvi *.ps
